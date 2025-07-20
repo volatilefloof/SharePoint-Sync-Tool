@@ -18,7 +18,7 @@ To allow a seamless end-user experience mapping document libraries to their loca
 The program uses the following Entra API roles to function:
 1. Sites.Read.All (delegated)
 
-The role itself is acquired through a static token using AUD https://graph.microsoft.com/.default
+The role itself is acquired through a static token using https://graph.microsoft.com/.default
 
 As noted above, the role itself acts under the context of the currently signed-in user. 
 This aligns with security posture by prohibiting access to view or add folders under a site collection the signed-in user does not explicitiy have access too.
