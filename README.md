@@ -21,7 +21,7 @@ The program uses the following Entra API roles to function:
 The role itself is acquired through a static token using https://graph.microsoft.com/.default
 
 As noted above, the role itself acts under the context of the currently signed-in user. 
-This aligns with security posture by prohibiting access to view or add folders under a site collection the signed-in user does not explicitiy have access too.
+This aligns with the principle of least privilege by prohibiting access to view or add folders under a site collection the signed-in user does not explicitiy have access too.
 
 The program takes advantage of the fact that SharePoint Online uses odopen:// reference URLs when syncing document libraries to a computer.
 
